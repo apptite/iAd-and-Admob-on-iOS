@@ -1,0 +1,15 @@
+This project can be used as a Framework to mix iAd and Admob advertisement.
+
+The basic principal is:
+1. Create an iAd banner and an Admob banner in viewDidLoad
+2. Only the iAd banner gets registered
+3. When iAd fails Admob banner gets registered
+4. If iAd would become active again, the Admob banner will disappear
+
+Make sure to replace @"YOUR_ID" with your AdMob publisher ID!
+
+For more information goto:
+http://www.apptite.be/blog/ios/mixing-iad-and-admob/
+
+Or contact:
+info@apptite.be
